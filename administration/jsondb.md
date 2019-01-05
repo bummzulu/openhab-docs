@@ -31,7 +31,7 @@ After this the data is retained in memory and only written to file when there ar
 ## Manual Editing
 
 Data is stored in a "pretty" format to make it more human readable, and is sorted so ordering is not random (important when a version control system is used).
-It is therefore editable by advanced users who might want to do a search and replace on item names etc.
+It is therefore editable by advanced users who might want to do a search and replace on item names etc. Make sure the openhab service is stopped before you edit the files. Otherwise your changes will be overwritten once the system is restarted.
 
 If you manually edit the file you must take responsibility for ensuring it is correctly formatted.
 A Json format checker (such as jsonlint.com) can be used to check the format and this should ensure that the file can be correctly read.
